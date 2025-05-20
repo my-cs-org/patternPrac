@@ -1,4 +1,4 @@
-package com.ohgiraffers.pattern.chap01.basic.section01.singleton;
+package com.ohgiraffers.pattern.chap01.creational.section01.singleton;
 
 
 /**

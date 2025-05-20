@@ -1,4 +1,4 @@
-package com.ohgiraffers.pattern.chap01.basic.section04.builder;
+package com.ohgiraffers.pattern.chap01.creational.section04.builder;
 
 /**
  * 설명. 빌더 패턴의 제품(Product) 클래스
@@ -34,7 +34,6 @@ public class Computer {
     }
 
     /* 설명. Getter 메소드들 */
-
     public String getCpu() {
         return cpu;
     }

@@ -1,4 +1,4 @@
-package com.ohgiraffers.pattern.chap01.basic.section03.abstractfactory;
+package com.ohgiraffers.pattern.chap01.creational.section03.abstractfactory;
 
 import java.util.Scanner;
 

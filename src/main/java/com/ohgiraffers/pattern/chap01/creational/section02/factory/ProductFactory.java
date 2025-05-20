@@ -1,4 +1,4 @@
-package com.ohgiraffers.pattern.chap01.basic.section02.factory;
+package com.ohgiraffers.pattern.chap01.creational.section02.factory;
 
 /**
  * 설명. 팩토리 패턴의 팩토리(Factory) 클래스

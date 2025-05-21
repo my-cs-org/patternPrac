@@ -11,12 +11,12 @@ public class AudioPlayer implements MediaPlayer {
     public void play(String audioType, String fileName) {
         
         /* 설명. MP3 파일을 재생하는 내장 기능 */
-        if(audioType.equalsIgnoreCase("mp3")) {
+        if (audioType.equalsIgnoreCase("mp3")) {
             System.out.println("오디오 플레이어로 MP3 재생 중: " + fileName);
         }
 
         /* 설명. VLC나 MP4 파일은 어댑터를 통해 재생 */
-        else if(audioType.equalsIgnoreCase("vlc") || audioType.equalsIgnoreCase("mp4")) {
+        else if (audioType.equalsIgnoreCase("vlc") || audioType.equalsIgnoreCase("mp4")) {
             mediaAdapter = new MediaAdapter(audioType);
             mediaAdapter.play(audioType, fileName);
         }

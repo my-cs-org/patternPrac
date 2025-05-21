@@ -20,7 +20,7 @@ public class MediaAdapter implements MediaPlayer {
     public void play(String audioType, String fileName) {
 
         /* 설명. 오디오 타입에 따라 적절한 고급 플레이어의 메소드 호출 */
-        if(audioType.equalsIgnoreCase("vlc")) {
+        if (audioType.equalsIgnoreCase("vlc")) {
             advancedMediaPlayer.playVlc(fileName);
         } else if (audioType.equalsIgnoreCase("mp4")) {
             advancedMediaPlayer.playMp4(fileName);

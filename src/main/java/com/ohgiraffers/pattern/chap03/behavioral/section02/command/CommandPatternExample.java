@@ -4,6 +4,9 @@ package com.ohgiraffers.pattern.chap03.behavioral.section02.command;
  * 설명. 커맨드 패턴 사용 예제
  *  - 요청을 객체로 캡슐화하여 매개변수화, 큐에 저장, 로깅, 취소 가능하게 함
  *  - 명령을 실행하는 객체와 명령을 발행하는 객체를 분리
+ *  - 명령을 발행하는 객체 (Invoker): RemoteControl
+ *  - 명령을 실행하는 객체 (Receiver): Light, Stereo
+ *  - 명령 객체 (Command): LightOnCommand, LightOffCommand, StereoOnWithCDCommand, StereoOffCommand
  */
 public class CommandPatternExample {
     public static void main(String[] args) {

@@ -38,14 +38,14 @@ public class CommandPatternExample {
         System.out.println(remoteControl);
 
         /* 설명. 리모컨 버튼 누르기 */
-        System.out.println("\n=== 리모컨 버튼 테스트 ===");
+        System.out.println("===== 리모컨 버튼 테스트 =====");
         remoteControl.onButtonWasPushed(0);   // 거실 조명 켜기
         remoteControl.offButtonWasPushed(0);  // 거실 조명 끄기
         remoteControl.onButtonWasPushed(1);   // 주방 조명 켜기
         remoteControl.offButtonWasPushed(1);  // 주방 조명 끄기
 
         // 실행 취소 테스트
-        System.out.println("\n=== 실행 취소 테스트 ===");
+        System.out.println("===== 실행 취소 테스트 =====");
         remoteControl.onButtonWasPushed(2);   // 스테레오 켜기
         remoteControl.undoButtonWasPushed();      // 스테레오 끄기 (실행 취소)
 

@@ -45,19 +45,19 @@ public class ChainOfResponsibilityPatternExample {
                 5, "우주선을 구매하고 싶습니다.");          // 처리할 수 없는 요청
         
         /* 설명. 각 요청 처리 */
-        System.out.println("\n=== 요청 1 처리 ===");
+        System.out.println("===== 요청 1 처리 =====");
         frontDesk.handleRequest(request1);
 
-        System.out.println("\n=== 요청 2 처리 ===");
+        System.out.println("===== 요청 2 처리 =====");
         frontDesk.handleRequest(request2);
 
-        System.out.println("\n=== 요청 3 처리 ===");
+        System.out.println("===== 요청 3 처리 =====");
         frontDesk.handleRequest(request3);
 
-        System.out.println("\n=== 요청 4 처리 ===");
+        System.out.println("===== 요청 4 처리 =====");
         frontDesk.handleRequest(request4);
 
-        System.out.println("\n=== 요청 5 처리 (처리 불가) ===");
+        System.out.println("===== 요청 5 처리 (처리 불가) =====");
         frontDesk.handleRequest(request5);
     }
 }

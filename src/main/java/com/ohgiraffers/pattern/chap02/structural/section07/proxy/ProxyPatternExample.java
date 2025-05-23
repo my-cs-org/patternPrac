@@ -15,25 +15,25 @@ public class ProxyPatternExample {
         Image image3 = new ProxyImage("photo3.jpg");
 
         /* 이미지 정보 확인 (실제 이미지 로딩 안 함) */
-        System.out.println("\n=== 이미지 정보 확인 ===");
+        System.out.println("===== 이미지 정보 확인 =====");
         System.out.println("Image 1: " + image1.getFilename());
         System.out.println("Image 2: " + image2.getFilename());
         System.out.println("Image 3: " + image3.getFilename());
 
         /* 첫 번째 이미지만 표시 (이 때 실제 이미지 로딩) */
-        System.out.println("\n=== 첫 번째 이미지 표시 ===");
+        System.out.println("===== 첫 번째 이미지 표시 =====");
         image1.display();
 
         /* 첫 번째 이미지 다시 표시 (이미 로딩되어 있음) */
-        System.out.println("\n=== 첫 번째 이미지 다시 표시 ===");
+        System.out.println("===== 첫 번째 이미지 다시 표시 =====");
         image1.display();
 
         /* 두 번째 이미지 표시 (새로 로딩) */
-        System.out.println("\n=== 두 번째 이미지 표시 ===");
+        System.out.println("===== 두 번째 이미지 표시 =====");
         image2.display();
 
         /* 프록시 없이 직접 RealImage 생성 (즉시 로딩) */
-        System.out.println("\n=== 프록시 없이 직접 이미지 생성 ===");
+        System.out.println("===== 프록시 없이 직접 이미지 생성 =====");
         Image directImage = new RealImage("direct_photo.jpg");
         directImage.display();
     }

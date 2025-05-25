@@ -10,9 +10,17 @@ package com.ohgiraffers.pattern.chap03.behavioral.section03.interpreter;
  *  2. 각 규칙을 쉽게 구현, 수정, 확장할 수 있음
  *  3. 새로운 표현식을 쉽게 추가할 수 있음
  *  
- * 설명. 주의점
+ * 설명. 인터프리터 패턴의 단점
  *  1. 복잡한 문법에서는 너무 많은 클래스가 필요할 수 있음
- *  2. 성능이 중요한 경우에는 파서 생성기 도구를 고려해야 함
+ *  2. 유지보수가 어려워질 수 있음
+ *  3. 성능이 중요한 경우에는 효율적이지 않을 수 있음
+ *  4. 복잡한 문법의 경우 디버깅이 어려움
+ *  
+ * 설명. 적절한 사용처
+ *  1. SQL 파서, 정규 표현식 엔진 등 간단한 언어 해석기 구현
+ *  2. 특정 도메인에 특화된 언어(DSL) 구현
+ *  3. 수학 표현식이나 논리 표현식 평가
+ *  4. 간단한 스크립트 언어나 쿼리 언어 해석
  */
 public class InterpreterPatternExample {
     public static void main(String[] args) {

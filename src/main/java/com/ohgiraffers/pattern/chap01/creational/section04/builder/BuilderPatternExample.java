@@ -9,6 +9,17 @@ package com.ohgiraffers.pattern.chap01.creational.section04.builder;
  *  1. 가독성이 좋음
  *  2. 필요한 속성만 선택적으로 설정 가능(setter를 사용하지 않고)
  *  3. 매개변수가 많은 생성자들을 쓰지 않아도 됨
+ *  
+ * 설명. 빌더 패턴의 단점
+ *  1. 객체 생성을 위한 추가적인 빌더 클래스 필요
+ *  2. 코드량이 증가할 수 있음
+ *  3. 생성자로 충분한 경우 오버엔지니어링이 될 수 있음
+ *  
+ * 설명. 적절한 사용처
+ *  1. 생성자 매개변수가 많거나 선택적 매개변수가 많은 경우
+ *  2. 불변(immutable) 객체를 생성해야 할 때
+ *  3. 객체 생성 과정이 복잡한 경우
+ *  4. 객체 생성 시 다양한 표현이 필요한 경우
  */
 public class BuilderPatternExample {
     public static void main(String[] args) {

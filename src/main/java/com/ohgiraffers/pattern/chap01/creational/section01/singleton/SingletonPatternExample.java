@@ -14,6 +14,12 @@ package com.ohgiraffers.pattern.chap01.creational.section01.singleton;
  *  1. 멀티스레드 환경에서 동기화 문제가 발생할 수 있음
  *  2. 테스트가 어려울 수 있음(전역 상태로 인한 의존성 문제로 싱글톤 객체가 테스트간에 공유되어 영향을 줄 수 있음)
  *  3. private 생성자로 인한 상속 불가능
+ *
+ * 설명. 적절한 사용처:
+ *  1. 로깅 시스템, 설정 관리자, 데이터베이스 연결 관리자와 같이 애플리케이션에서 하나의 인스턴스만 필요한 경우
+ *  2. 공유 리소스에 대한 동시 접근을 제어해야 하는 경우
+ *  3. 전역 상태를 관리해야 하는 경우
+ *  4. 인스턴스 생성 비용이 높은 객체를 여러 번 생성하지 않아야 하는 경우
  */
 public class SingletonPatternExample {
     public static void main(String[] args) {

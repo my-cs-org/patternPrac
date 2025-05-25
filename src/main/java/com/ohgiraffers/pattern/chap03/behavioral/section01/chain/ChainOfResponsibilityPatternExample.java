@@ -14,6 +14,17 @@ import com.ohgiraffers.pattern.chap03.behavioral.section01.chain.supports.Techni
  *  2. 객체들 간의 결합도를 낮춤
  *  3. 요청 처리 객체를 동적으로 변경 가능
  *  4. 새로운 처리 객체를 쉽게 추가 가능
+ *  
+ * 설명. 책임 연쇄 패턴의 단점
+ *  1. 요청이 처리된다는 보장이 없음
+ *  2. 요청 처리 경로를 추적하기 어려울 수 있음
+ *  3. 디버깅이 어려울 수 있음
+ *  
+ * 설명. 적절한 사용처
+ *  1. 여러 객체가 요청을 처리할 수 있고, 처리자가 미리 정해지지 않은 경우
+ *  2. 요청을 처리할 객체를 명시하지 않고 여러 객체에게 기회를 주고 싶을 때
+ *  3. 요청 처리자 집합이 동적으로 변경되는 경우
+ *  4. 이벤트 처리 시스템, 로깅 시스템, 예외 처리 체인 등에 활용
  */
 public class ChainOfResponsibilityPatternExample {
     public static void main(String[] args) {

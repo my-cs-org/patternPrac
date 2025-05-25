@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eb4b9624-c696-4b13-a04f-1066177535a7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap01/creational/section01/singleton/SingletonPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap01/creational/section01/singleton/SingletonPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap01/creational/section02/factory/FactoryPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap01/creational/section02/factory/FactoryPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap01/creational/section03/abstractfactory/AbstractFactoryPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap01/creational/section03/abstractfactory/AbstractFactoryPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap01/creational/section04/builder/BuilderPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap01/creational/section04/builder/BuilderPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap01/creational/section05/prototype/PrototypePatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap01/creational/section05/prototype/PrototypePatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap02/structural/section01/adapter/AdapterPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap02/structural/section01/adapter/AdapterPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap02/structural/section02/bridge/BridgePatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap02/structural/section02/bridge/BridgePatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap02/structural/section03/composite/CompositePatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap02/structural/section03/composite/CompositePatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap02/structural/section04/decorator/DecoratorPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap02/structural/section04/decorator/DecoratorPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap02/structural/section05/facade/FacadePatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap02/structural/section05/facade/FacadePatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap02/structural/section06/flyweight/FlyweightPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap02/structural/section06/flyweight/FlyweightPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap02/structural/section07/proxy/ProxyPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap02/structural/section07/proxy/ProxyPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section01/chain/ChainOfResponsibilityPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section01/chain/ChainOfResponsibilityPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section02/command/CommandPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section02/command/CommandPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section03/interpreter/InterpreterPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section03/interpreter/InterpreterPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section04/iterator/IteratorPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section04/iterator/IteratorPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section05/mediator/MediatorPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section05/mediator/MediatorPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section06/memento/MementoPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section06/memento/MementoPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section07/observer/ObserverPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section07/observer/ObserverPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section08/state/StatePatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section08/state/StatePatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section09/strategy/StrategyPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section09/strategy/StrategyPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section10/template/TemplateMethodPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section10/template/TemplateMethodPatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section11/visitor/VisitorPatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/pattern/chap03/behavioral/section11/visitor/VisitorPatternExample.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2xao0V1xxXAXYdmgezAMgre9GrY" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/omen45l/999_testwork/patternPrac_renewal/patternPrac",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb4b9624-c696-4b13-a04f-1066177535a7" name="Changes" comment="" />
+      <created>1748185323610</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748185323610</updated>
+      <workItem from="1748185324731" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
